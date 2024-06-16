@@ -140,8 +140,8 @@ const fillScore = () => {
                 </div>
             </div>
             <div class="score-btns">
-                <a href="/" class="exit-btn">Back to Home Page</a>
-                <a href="/quiz.html" class="restart-btn">Restart The quiz</a>
+                <a href="index.html" class="exit-btn">Back to Home Page</a>
+                <a href="quiz.html" class="restart-btn">Restart The quiz</a>
             </div>
         </div>
     `;
