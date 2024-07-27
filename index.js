@@ -136,7 +136,7 @@ const fillScore = () => {
                 </div>
                 <div class="score-text">
                     <p>You answered</p>
-                    <p>${score}/${quiz.length} questions</p>
+                    <span>${score}/${quiz.length} questions</span>
                 </div>
             </div>
             <div class="score-btns">

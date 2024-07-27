@@ -37,7 +37,7 @@ body {
     font-family: "poppins";
     color: transparent;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,4 +78,35 @@ body {
     -o-border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
+}
+
+@media (max-width: 850px) {
+
+.quiz-card {
+    background: #13163c;
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.quiz-card h1 {
+    font-size: 4rem;
+}
+.quiz-card h2{
+    font-size: 1.2rem;
+}
+
+.quiz-card h4{
+    font-size: .6rem;
+}
+
+.quiz-card a{
+    padding: 10px 60px;
+}
 }
